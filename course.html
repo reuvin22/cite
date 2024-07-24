@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Courses Offered</title>
+	<link rel="stylesheet" href="style.css">
+    
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+	
+	<section id="header">
+		
+		<div class="container">
+			<img src="images/it.png" class="logo">
+            
+			<div class="course-text">
+                <h1 style="text-align: center">COURSES OFFERED</h1>
+				<h3 style="font-size: 28px">Bachelor of Science in Information Technology</h3>
+                <span class="square"></span>
+				<p style="font-size: 20px">● Web and Mobile Development<br>
+				● Network Administration and Security Management<br>
+				● Service Management for BPO </p><br><br>
+                
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+
+                </div>
+			</div>
+			
+		</div>
+		
+	</section>
+    
+<!-- second page -->
+    
+    <section id="about">
+        
+        <div class="about-left-col">
+            <img src="images/leftcourse.png" style="width: 90%">
+        </div>
+        
+        <div class="about-right-col">
+            
+            <div class="about-text">
+                <h1>Bachelor of Science in Computer Science</h1>
+                <span class="square"></span>    
+                <p style="font-size: 20px">● Animation and Game Development <br>
+				● Network Administration and Security Management </p><br><br>
+                
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+<!-- third page -->
+    
+        <section id="courses">
+        
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+					<h1>Associate in Computer Technology</h1><br>
+                    <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span> 
+                    </div>
+                     <button class="common-btn"> <a href="cite.php#courses"> Back </a></button>
+                </div>
+            </div>
+            
+            <div class="course-right-col">
+                <img src="images/homecourse.png" style="width: 100%">
+            </div>
+            
+        </div>
+    </section>
+	
+<!-- Social Icons -->
+    
+    <div class="social-icons">
+        <a href="https://www.facebook.com/BU-CITE-110411804951925/"><img src="images/facebook.png"></a>
+        <img src="images/instagram.png">
+        <a href="https://www.twitter.com/baliuagu"><img src="images/twitter.png"></a>
+        <img src="images/linkedin.png">
+    </div>
+    
+    
+    
+    
+    <nav id="sideNav">
+          <ul>
+            <li><a href="cite.php#header">HOME</a></li>
+            <li><a href="cite.php#about">ABOUT</a></li>
+            <li><a href="cite.php#features">FEATURES</a></li>
+            <li><a href="cite.php#courses">COURSES</a></li>
+            <li><a href="cite.php#offer">OFFER</a></li>
+            <li><a href="cite.php#login">LOG IN</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    
+        
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                 sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.whole{
+	height:44vw;
+	width:100%;
+	background-color: whitesmoke;
+}
+.whole img{
+	position: relative;
+	width: 30vw;
+	height: 30vw;
+	top: 3vw;
+	left: 30vw;
+}
+.whole h1{
+	text-align: center;
+	font-size:8vw;
+	padding-top: 0vw;
+	margin-top: 0vw;
+	position: relative;
+	top: 1.5vw; 
+	color:black;
+	text-shadow: 1px 4px 5px white;	
+}

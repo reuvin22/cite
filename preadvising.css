@@ -1,0 +1,87 @@
+.whole{	
+float: bottom;
+width: 100%;
+height: 100%;
+padding:10px;
+box-sizing: border-box;
+text-align: center;
+size: 30px;
+border-radius: 10px;
+height: 100%
+}
+.firstfloat{
+	border-bottom: solid violet 6px;
+	height: 11vw;
+	background-color:#3b3387;
+}
+.firstfloat h1{
+	text-align: center;
+	font-size:8vw;
+	padding-top: 0vw;
+	margin-top: 0vw;
+	position: relative;
+	top: 1.5vw; 
+	color:white;
+	text-shadow: 1px 4px 5px black;	
+}
+.firstfloat img{
+	position: relative;
+	height: 10vw;
+	top: -14vw;
+	left: 44.4vw;
+}
+.secondfloat{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.bottom{
+	border-top: solid violet 6px;
+	height: 2vw;
+	background-color: pink;
+	top: 30vw;
+	position: relative;
+}
+table input{
+	height: 2vw;
+}
+.bottom table{
+	position: relative;
+	top: -43vw;
+}
+table, th,td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	height: 40px;
+	width: 70%;
+	text-align: center;
+}
+.submit:hover {
+	background: aqua;
+}
+.select-subjects:hover {
+	background: aqua;
+}
+.popup {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content {
+	align-items: center;
+    height: 100px;
+    width: 300px;
+	align-items: center;
+	margin-left: 20px;
+    display: flex;
+    background-color: rgb(160, 180, 245);
+    padding: 3px;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+}

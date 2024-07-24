@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About CITE</title>
+	<link rel="stylesheet" href="readmoreandabout.css">
+    
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body id="background">
+	
+	<section>
+        
+		<div class="container">
+			<img src="images/it.png" class="logo">
+            
+                <h1 style="text-align: center">MISSION, VISION AND OBJECTIVES</h1><br>
+				<h1  style="text-align: center">Mission</h1>
+				<div class="line">
+                    <span class="line-1"></span><br>
+					<span class="line-2"></span><br><br>
+                </div>
+				<p style="text-align: center">Guided by the Baliuag Universitys’ philosophy,<br> mission, vision, goals, and objectives. The College <br>of Information Technology Education ensures the <br>delivery of quality education among our students.</p><br><br>
+                
+			</div>
+		
+	</section>
+
+ <!-- second page -->
+    
+    <section>
+        
+		<div class="container">
+			
+                <h1 style="text-align: center">VISION</h1>
+                  <div class="line">
+                    <span class="line-1"></span><br>
+					<span class="line-2"></span><br><br>
+                </div>
+				<p style="text-align: center">The College of Information Technology Education<br> commits itself to provide its graduates with appropriate<br> and up to date ITE skills, and excellent technical competence <br>through instruction, industry immersion, linkages, research,<br> leadership, and community service.</p><br><br>
+                
+    
+			</div>
+		
+	</section>
+    
+ <!-- third page -->
+    
+    <section>
+        
+		<div class="container">
+			
+                <h1 style="text-align: center">GENERAL OBJECTIVE</h1>
+                 <div class="line">
+                    <span class="line-1"></span><br>
+					<span class="line-2"></span><br><br>
+                </div>
+				<p style="text-align: center">To prepare the students to be IT professionals,<br> researchers, technical maintenance and experts<br> on the design and implementation of solutions for<br> business processes.</p><br><br>
+				
+				
+				 <button class="common-btn"> <a href="cite.php#about"> Back </a></button>
+    
+			</div>
+		
+	</section>
+	
+<!-- Social Icons -->
+    
+    <div class="social-icons">
+        <a href="https://www.facebook.com/BU-CITE-110411804951925/"><img src="images/facebook.png"></a>
+        <img src="images/instagram.png">
+        <a href="https://www.twitter.com/baliuagu"><img src="images/twitter.png"></a>
+        <img src="images/linkedin.png">
+    </div>
+    
+    
+    
+    
+    <nav id="sideNav">
+          <ul>
+            <li><a href="cite.php#header">HOME</a></li>
+            <li><a href="cite.php#about">ABOUT</a></li>
+            <li><a href="cite.php#features">FEATURES</a></li>
+            <li><a href="cite.php#courses">COURSES</a></li>
+            <li><a href="cite.php#offer">OFFER</a></li>
+            <li><a href="cite.php#login">LOG IN</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    
+        
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                 sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    
+    </body>
+</html>

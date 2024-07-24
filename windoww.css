@@ -1,0 +1,54 @@
+.whole{	
+float: bottom;
+width: 100%;
+height: 100%;
+padding:10px;
+box-sizing: border-box;
+text-align: center;
+size: 30px;
+border-radius: 10px;
+height: 100%
+}
+.firstfloat{
+	border-bottom: solid violet 6px;
+	height: 11vw;
+	background-color:#3b3387;
+}
+.firstfloat h1{
+	text-align: center;
+	font-size:8vw;
+	padding-top: 0vw;
+	margin-top: 0vw;
+	position: relative;
+	top: 1.5vw; 
+	color:white;
+	text-shadow: 1px 4px 5px black;	
+}
+.firstfloat img{
+	position: relative;
+	height: 10vw;
+	top: -14vw;
+	left: 44.4vw;
+}
+.body img{
+	height: 44.8vw;
+	position: relative;
+	left: 9vw;
+}
+.bottom h1{
+	position: relative;
+	top: -8vw;
+	right: 17vw;
+}
+.bottom{
+	border-top: solid violet 6px;
+	height: 2vw;
+	background-color: #3b3387;
+	top: -10vw;
+}
+.hello {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
